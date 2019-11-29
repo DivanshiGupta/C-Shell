@@ -18,6 +18,7 @@ Error handling is done wherever necessary.
 ```cd or cd ~``` Take to the home direcotry.
 
 ```cd /``` Takes to root directory.
+
 5. ```ls ```Lists all contents of current directory.
 
 ```ls -a``` Lists all hidden files also.
@@ -25,11 +26,13 @@ Error handling is done wherever necessary.
 ```ls -l``` Long Listing of all files.
 
 ```ls -al``` Long Listing of all files including hidden files.
+
 6. ```setenv [var] [val]``` Sets value of the environment variable 'var' to value 'val'.
 
 ```unsetenv [var]``` Unsets the value of environment variable 'var'.
 
 7. ```jobs``` Prints all the jobs in order of their creation along with their Unique Id,current status, Name of the job, Pid.  
+
 8.```fg [job_id]``` Brings the Job with given job_id to the foregound process i.e brings stopped or sleeping process to           foreground.
 
 ```bg[job_id]``` Takes the job with given job_id to the background process.
