@@ -8,7 +8,7 @@ Error handling is done wherever necessary.
 3. ```pinfo <pid>``` Prints details of the process with given pid.If no argument is provided it takes pid of current process by    default. Details include : PID, Process Status, Memory , Executable Path.
 4. ```cd ```Changes the directory
    ```cd [argument]``` Changes the current directory to the directory mentioned in argument.
- `  ``Cd ..``` Takes back to the previous directory.
+   ```Cd ..```Takes back to the previous directory.
    ```cd or cd ~``` Take to the home direcotry.
    ```cd /``` Takes to root directory.
 5. ```ls ```Lists all contents of current directory.
